@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Orbitron', sans-serif;
+  color: #44C553;
+  background: #000;
+  letter-spacing: .2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+input {
+  font-family: 'Orbitron', sans-serif;
+  color: #44C553;
+  background: #000;
+  text-align: right;
+  letter-spacing: .2rem;
+}
+
+input:focus {
+  outline: none;
+  border:1px solid #44C553ed;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.number-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #000;
+  border-radius: 0;
+  border: 1px solid #44C553ed;
+  color: #44C553ed;
+  font-family: 'Orbitron', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+button:focus {
+  outline: none;
+  border:1px solid #44C553ed;
+  box-shadow: 0 0 10px #719ECE;
+}
